@@ -7,23 +7,31 @@ include_once('config.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>    
+<div class="container">
+  <div class="row">
+  <div class="col-sm-12">
 <nav class="navbar navbar-light" style="background-color:#1A75B1;">
   <a class="navbar-brand" href="#">&nbsp &nbsp 
-  <P style="float:right;"> 
+  <p class="float-right">
     <span style="font-family:Tekton Pro;font-size:30px;">SIGN UP</span>
     <span style="font-family:Tekton Pro;font-size:30px;">LOGIN</span>
     <br>
-</P>
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
     <img src="img/sl-tours-logo-1-removebg-preview.png" width="30" height="40" class="d-inline-block align-top" alt="">&nbsp &nbsp &nbsp
     
     <span style="font-family:showcard gothic;font-size:30px;">SRILANKA TOUR</span>
   </a>
+  </div>
+  </div>
   </nav>
-
-
+  <div class="row"><div class="col-sm-12">
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#1A75B1;">
 
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -44,10 +52,9 @@ include_once('config.php');
       </li>
     </ul>
   </div>
+  </div>
+  </div>
 </nav>
-
-
-
 <div class="card bg-light text-dark">
   <img class="card-img-top" src="img/Cheap-couple-vacation-in-Sri-Lanka.jpg" alt="Card image cap">
   <div class="card-img-overlay">
@@ -60,5 +67,9 @@ include_once('config.php');
 </center>
 </div>
 </div>
+<div class="row"><div class="col-sm-12">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#100F0F;">
+<div class="collapse navbar-collapse" id="navbarNav">
+</nav>
 </body>
 </html>
